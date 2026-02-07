@@ -31,7 +31,7 @@ services:
   # API GATEWAY
   # =========================
   api-gateway:
-    image: academic-service:latest
+    image: api-gateway:latest
     build: ./api-gateway
     container_name: api-gateway
     ports:
