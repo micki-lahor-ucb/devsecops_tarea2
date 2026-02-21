@@ -3,8 +3,6 @@ import Login from "./pages/Login";
 import Courses from "./pages/Courses";
 
 export default function App() {
-  const evidenciaFalloLint = "simulacion";
-
   // Revisar si ya existe token
   const [token, setToken] = useState(
     sessionStorage.getItem("token")
